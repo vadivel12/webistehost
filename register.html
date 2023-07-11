@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Registeration form</title>
+</head>
+<body>
+    <form>
+        <h1>Registeration form</h1>
+        <div class="fname">
+        <label>Firstname</label>
+        <input type="text" placeholder="Firstname" class="padding">
+    </div>
+    <div class="lname">
+        <label>Lastname</label>
+        <input type="text" placeholder="Lastname" class="padding">
+    </div>
+  
+     <div class="pass">
+        <label>password</label>
+        <input type="password" placeholder="password" class="padding">
+    </div>
+    <div class="cpass">
+        <label>Confirm password</label>
+        <input type="password"  placeholder="re-enterpassword" class="padding">
+    </div>
+    <div class="age">
+        <label>Age</label>
+        <input type="number" placeholder="Enter your Age" class="padding">
+    </div>
+    <div class="sex">
+        <label>Sex</label>
+        <input type="radio" id="Male" name="fav_language" value="Male">
+        <label for="Male">Male</label><br>
+        <input type="radio" id="Female" name="fav_language" value="Female">
+        <label for="Female">Female</label><br>
+    </div>
+    <div class="pnum">
+        <label>Phone number</label>
+        <input type="number"class="padding">
+    </div>
+    <div class="intr">
+        <label>Interest</label>
+        <input type="checkbox" id="sports" name="sports" value="sports">
+        <label for="sports">sports</label><br>
+        <input type="checkbox" id="cooking" name="cooking" value="cooking">
+        <label for="cooking">cooking</label><br>
+        <input type="checkbox" id="videogames" name="videogames" value="videogames">
+        <label for="videogames">video games</label><br>
+    </div>
+    <div class="address">
+        <label for="Address">Address</label></p>
+        <textarea id="Address" name="Address" rows="5" cols="50" placeholder="Type your Address here"></textarea>
+    </div>
+    <div class="countries">     
+        <label for="Countries">Countries</label>
+        <select name="Countries" id="Countries">
+          <option value="America">America</option>
+          <option value="India">India</option>
+          <option value="Canada">Canada</option>
+          <option value="England">England</option>
+        </select>
+    </div>
+    <div class="sta">
+        <label for="State">States </label>
+        <select name="States" id="States">
+          <option value="Tamilnadu ">Tamilnadu</option>
+          <option value="Karnataka">Karnataka</option>
+          <option value="Hydrebad">Hydrebad</option>
+          <option value="Kerala">Kerala</option>
+        </select>
+    </div> 
+    <div class="submit">
+        <button>submit</button>
+    </div>
+    </form>
+</body>
+</html>
