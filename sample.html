@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body{
+    background-image: url("img4.webp");
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+    .form{
+                background-position: 12px;
+                background-color: azure;
+                margin-top: 200px;
+                margin-left: 500px;
+                margin-bottom: 200px;
+                padding: 3vw 50px;
+                border-left: 200px;
+                border-radius: 30px;
+                text-align: center;
+                transform: translate(30%,40%,20%,50%);
+                width:230px;
+                height: 265px;
+                overflow: hidden;
+                opacity: .5;
+                box-shadow: 0px 0 10px 3px black;
+            }
+            .name{
+                padding:15px;
+                padding-bottom: 20px;
+                margin:10px;
+                text-align: left;
+                background-color: antiquewhite;
+                background-position: cover;
+                border-radius: 20px;
+            }
+            .name:hover{
+                border:2px solid red;
+            }
+            .name:active{
+                border-color: aquamarine;
+            }
+            .pass{
+                padding:15px;
+                padding-bottom:20px;
+                margin:10px;
+                text-align: left;
+                background-color: antiquewhite;
+                background-position: cover;
+                border-radius: 20px;
+            }
+            .pass:hover{
+                border:2px solid red;
+            
+            }
+            .pass:visited{
+                border:2px solid red;
+
+            }
+            .submit{
+                padding: 10px;
+                display: block;
+                position: relative;
+                left: 70px;
+                top:25px;
+                border-radius: 29px;
+                margin:1px;
+                background-color: beige;
+            }
+            .submit:hover{
+                background-color: orange;
+            }
+            </style>
+            </head>
+<body>
+  <div class="form">
+    <h2 style="color: rgb(44, 16, 16);"">Login form</h2>
+    <form class="action" action="sample.php">
+        <input type="text" placeholder="Username"  style="display: block;" class="name">
+        <input type="password" placeholder="password" class="pass">
+        <input type="submit" value="submit" style="display: block;" class="submit" action="index.html">
+    </form>
+</div>
+
+</body>
+</html>
